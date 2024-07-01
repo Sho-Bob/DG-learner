@@ -31,7 +31,7 @@ def gauss_quadrature_2d(n):
     return points_2d, weights_2d
 
 # Number of quadrature points in one dimension
-n = 5  
+n =2  
 
 # Generate Gauss-Lobatto and Gauss quadrature points and weights
 lobatto_points, lobatto_weights = gauss_lobatto_quadrature_2d(n)

@@ -17,6 +17,9 @@ The scripts in this repository provide functions to calculate Gauss and Gauss-Lo
 - NumPy
 - Matplotlib
 
+## Reference
+For Japanese learners, [this website][https://slpr.sakura.ne.jp/sikinote/docs/numeric/integration/gauss-quadrature/#mjx-eqn-e3] is very good.
+
 You can run those code with:
 ```sh
 python *.py
