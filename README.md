@@ -4,7 +4,7 @@ THIS REPOSITORY IS FOR LEARNING THE DG SCHEME.
 This repository contains Python scripts to generate and visualize Gauss and Gauss-Lobatto quadrature points in 2D and 3D. Quadrature points are used in numerical integration to approximate the integral of functions.
 Comparison of the quadrature points in 2D can be done with comparison_of_quad_points_in2d.py. You'll get the following image.
 <!-- ![image](figures/Gauss_Lobbato_comparison2d.png | width = 100) -->
-<img src="https://github.com/Sho-Bob/DG-learner/blob/main/figures/Gauss_Lobbato_comparison2d.png" width ="100">
+<img src="https://github.com/Sho-Bob/DG-learner/blob/main/figures/Gauss_Lobbato_comparison2d.png" width ="600">
 In addition, you can compare those quadrature points in 3D with comparison_of_quadrature_points.py. You'll get the following image.
 ![3d comparison](figures/3d.png | width = 100)
 
