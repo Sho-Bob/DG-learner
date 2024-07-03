@@ -9,12 +9,12 @@ In addition, you can compare those quadrature points in 3D with comparison_of_qu
 <!-- ![3d comparison](figures/3d.png | width = 100) -->
 <img src="https://github.com/Sho-Bob/DG-learner/blob/main/figures/3d.png" width ="500">
 In this repository, you can find some codes to describe lagrange polynomials defined on [-1,1].
-![image](figures/legendre_poly.png | width = 100)
-
+<!-- ![image](figures/legendre_poly.png | width = 100) -->
+<img src="https://github.com/Sho-Bob/DG-learner/blob/main/figures/legendre_poly.png" width ="500">
 ## Point
 In some papers, you'll find $[x_{i-frac{1}{2}}, x_{i+frac{1}{2}}] \times [x_{i-frac{1}{2}}, x_{i+frac{1}{2}}]$ is defined with both Gauss quadrature points and Gauss-Lobatto quadrature points. To visualize this crazy domain, this repositpry includes "gauss_gausslobatto.py". The grid points in the target domain is like this. $S_x$ denotes x-coordinates defined with the Gauss points, $\hat{S_y}$ denotes y-coordinates defined with the Gauss-Lobatto points. 
-![image](figures/crazy.png | width = 100)
-
+<!-- ![image](figures/crazy.png | width = 100) -->
+<img src="https://github.com/Sho-Bob/DG-learner/blob/main/figures/crazy.png" width ="500">
 ## Introduction
 The scripts in this repository provide functions to calculate Gauss and Gauss-Lobatto quadrature points and weights. Additionally, the scripts include visualization tools to plot these points in both 2D and 3D spaces.
 
