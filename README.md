@@ -12,7 +12,7 @@ In this repository, you can find some codes to describe lagrange polynomials def
 
 ## Point
 In some papers, you'll find $[x_{i-frac{1}{2}}, x_{i+frac{1}{2}}] \times [x_{i-frac{1}{2}}, x_{i+frac{1}{2}}]$ is defined with both Gauss quadrature points and Gauss-Lobatto quadrature points. To visualize this crazy domain, this repositpry includes "gauss_gausslobatto.py". The grid points in the target domain is like this. $S_x$ denotes x-coordinates defined with the Gauss points, $\hat{S_y}$ denotes y-coordinates defined with the Gauss-Lobatto points. 
-![crazy][figures/crazy.png]
+![crazy](figures/crazy.png)
 
 ## Introduction
 The scripts in this repository provide functions to calculate Gauss and Gauss-Lobatto quadrature points and weights. Additionally, the scripts include visualization tools to plot these points in both 2D and 3D spaces.
@@ -23,7 +23,7 @@ The scripts in this repository provide functions to calculate Gauss and Gauss-Lo
 - Matplotlib
 
 ## Reference
-For Japanese learners, [this website][https://slpr.sakura.ne.jp/sikinote/docs/numeric/integration/gauss-quadrature/#mjx-eqn-e3] is very good.
+For Japanese learners, [this website](https://slpr.sakura.ne.jp/sikinote/docs/numeric/integration/gauss-quadrature/#mjx-eqn-e3) is very good.
 
 You can run those code with:
 ```sh
