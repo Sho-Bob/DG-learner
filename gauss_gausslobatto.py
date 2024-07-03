@@ -38,8 +38,8 @@ def visualize_S_K():
 
     plt.figure(figsize=(10, 8))
     
-    plt.scatter(S1_x, S1_y, color='blue', marker='^', label='$S_i^x \\times \\hat{S}_j^y$')
-    plt.scatter(S2_x, S2_y, color='red', marker='o', label='$\\hat{S}_i^x \\times S_j^y$')
+    plt.scatter(S1_x, S1_y, color='blue', marker='^', s=100,label='$S_i^x \\times \\hat{S}_j^y$')
+    plt.scatter(S2_x, S2_y, color='red', marker='o', s=100, label='$\\hat{S}_i^x \\times S_j^y$')
 
     plt.xlabel('x')
     plt.ylabel('y')
