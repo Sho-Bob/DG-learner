@@ -12,6 +12,13 @@ In this repository, you can find some codes to describe lagrange polynomials def
 <!-- ![image](figures/legendre_poly.png | width = 100) -->
 <img src="https://github.com/Sho-Bob/DG-learner/blob/main/figures/legendre_poly.png" width ="500">
 
+In the DG scheme, we map an element in a physical plane to the reference plane with the Lagrange polynomial basis. The following equation is used to map the geometry vertices to the reference plane.
+$x(\xi, \eta), y(\xi, \eta) = \sum_{i=1}^{n} \ell_i(\xi, \eta) (x_i, y_i)$
+Here, $\ell_i(\xi, \eta) = \left(\prod_{\substack{j \neq i}} \frac{\xi - \xi_j}{\xi_i - \xi_j}\right) \left(\prod_{\substack{j \neq i}} \frac{\eta - \eta_j}{\eta_i - \eta_j}\right)$.
+$\ell_i(\xi, \eta) (x_i, y_i)$ is $(x_i, y_i)$ at $(\xi_i, \eta_i)$ which is corresponds to $(x_i, y_i)$ in a physical coordinates.
+The code is 'mapping.py', and this will give you the following result.
+<img src="https://github.com/Sho-Bob/DG-learner/blob/main/figures/mapping.png" width ="500">
+
 ## Point
 In some papers, you'll find $[x_{i-1/2}, x_{i+1/2}] \times [y_{i-1/2}, y_{i+1/2}]$ is defined with both Gauss quadrature points and Gauss-Lobatto quadrature points. To visualize this crazy domain, this repositpry includes 'gauss_gausslobatto.py'. The grid points in the target domain is like this. $S_x$ denotes x-coordinates defined with the Gauss points, $\hat{S_y}$ denotes y-coordinates defined with the Gauss-Lobatto points. 
 <!-- ![image](figures/crazy.png | width = 100) -->
