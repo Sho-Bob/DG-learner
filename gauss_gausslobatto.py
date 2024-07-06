@@ -16,8 +16,8 @@ def compute_gauss_lobatto_points(n):
     return x
 
 def create_grid_points():
-    n_gauss = 5
-    n_gauss_lobatto = 6
+    n_gauss = 3
+    n_gauss_lobatto = 3
 
     # Gauss quadrature points
     gauss_points, _ = leggauss(n_gauss)
